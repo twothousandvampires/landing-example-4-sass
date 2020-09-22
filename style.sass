@@ -1,0 +1,227 @@
+*
+    padding: 0
+    margin: 0
+
+.wrapper
+    width: 60%
+    margin: 0 auto
+
+header
+    padding: 40px 0 40px 0
+    background: #edeff1
+    width: 100%
+    nav
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        font-family: 'Roboto Slab', serif
+        .logo
+            p
+                color: red
+                font-size: 14px
+            h4
+                font-size: 28px
+        .menu         
+            width: 80%
+            ul
+                list-style-type: none
+                display: flex
+                flex-direction: row
+                font-size: 16px
+                justify-content: space-around
+                align-items: center
+                height: 100%
+                li
+                    padding: 7px 10px
+                    border: 1px #edeff1 solid
+                    border-radius: 24px
+                    transition: transform 0.5s ease-in
+                    
+                    &:hover
+                        transform: scale(1.1)
+                        padding: 9px 12px
+                        border: 1px #dd4b2b solid
+                        background: #dd4b2b                     
+                        border-radius: 24px
+                        color:#fff
+.main
+    font-family: 'Montserrat', sans-serif
+    background: url("img/photo.jpg") no-repeat
+    background-size: cover
+    .main_content
+        padding-bottom: 100px
+        padding-top: 340px
+        text-align: center
+        display: flex
+        flex-direction: column
+        color:#fff
+        h1
+            font-size: 52px
+            font-weight: 400
+            margin-bottom: 6px
+        p
+            margin-bottom: 70px             
+        .main_post
+            display: flex
+            flex-direction: row
+            justify-content: space-around       
+        .more
+            margin-top: 40px
+            a   
+                color: #000
+                border-radius: 20px               
+                border: 1px #fff solid
+                background: #fff
+                padding: 10px 16px
+                text-decoration: none           
+        .post
+            padding: 0 5px 0 5px
+            p 
+                margin-bottom: 10px
+                font-size: 13px
+                font-weight: 200
+            h4
+                font-size: 27px
+                font-weight: 100
+            img
+                transition: transform 1s 
+                &:hover
+                    transform: scale(1.2)
+.news
+    background: #edeff1
+    padding-top: 80px
+    padding-bottom: 90px
+.main_news
+    h3
+        margin-bottom: 80px
+        font-size: 30px
+    font-family: 'Montserrat', sans-serif
+    display: flex
+    flex-direction: column
+    text-align: center
+    .posts
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        .post_one
+            width: 30%
+            h5
+                margin-bottom: 12px
+                font-size: 22px
+            img 
+                width: 100%
+                height: 60%
+                margin-bottom: 20px
+                &:hover
+                    transform: scale(1.1)
+            p
+                margin-bottom: 32px
+                font-size: 12px
+            a
+                text-decoration: none
+                color: #000000
+                background: #fff
+                padding: 8px 14px
+                border: 1px #fff solid
+                border-radius: 20px
+.newsletter
+    padding: 72px 0 100px 0
+    font-family: 'Montserrat', sans-serif
+    display: flex
+    flex-direction: column
+    text-align: center
+    background: url("img/sletter.jpg") no-repeat
+    background-size: cover
+    h3
+        color: white
+        font-size: 30px
+        font-weight: 200
+        margin-bottom: 50px
+    p
+        color: white
+        font-size: 15px
+        margin-bottom: 44px
+    .sign
+        form
+            button
+                padding: 8px 40px
+                background: #ffffff
+                color: #000
+                border: 1px #fff solid
+                border-radius: 20px
+                outline: none
+                position: relative
+                left: -40px
+                transition: left 0.5s ease-in
+                .sign_button
+                    font-family: 'Montserrat', sans-serif
+                    font-weight: 600                   
+                &:hover
+                    left: -60px                
+            input
+                padding: 8px 40px 8px 10px
+                border-radius: 20px
+                border-top: 2px solid rgba(0,0,0,0.8);
+                border-left: 2px solid rgba(0,0,0,0.8);
+                outline: none
+                opacity: 0.3
+.product
+    .product_main
+        padding: 115px 0
+    background: #ffffff
+    font-family: 'Montserrat', sans-serif
+    .product_one
+        display: flex
+        flex-direction: row
+        margin-bottom: 30px
+        justify-content: space-between
+        img
+            min-width: 45%
+            min-height: 260px
+            width: 45%
+            height: 260px
+            border: 2px solid #fff
+            border-radius: 10px
+        .product_info
+            width: 45%
+            padding: 8px
+            h4
+               font-size: 26px
+               font-weight: 400
+               margin-bottom: 16px
+            p 
+                font-size: 14px
+                margin-bottom: 30px
+            a 
+                text-decoration: none
+                color:#fff
+                background: red
+                border: 1px red solid
+                border-radius: 20px
+                padding: 10px 80px
+                font-weight: 400
+                
+            .blue
+                background: blue
+                border: 1px blue solid
+                border-radius: 20px
+.footer_up
+    background: #d75d0e
+    padding: 60px 0 30px 0
+    .footer_content
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        .content_one
+            line-height: 25px
+            font-size: 12px
+            font-family: 'Montserrat', sans-serif
+            font-weight: 500
+            color:#fff
+            text-align: center
+.footer_down
+    padding: 80px 0 100px 0
+    background: url("img/photo2.jpg") no-repeat
+    background-size: cover
+    text-align: center
+    color: white
